@@ -17,5 +17,12 @@
 
 <p>This is a paragraph.</p>
 
+<script type="module">
+  import init from "./pkg/fourier.js";
+  init().then(() => {
+    console.log("WASM Loaded");
+  });
+</script>
+
 </body>
 </html> 
