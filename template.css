@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  width: 100%;
+  padding: 0.5em;
+}
+.images {
+  display: flex;
+  padding: 1%;
+  --width: 100%;
+}
+
+canvas {
+  flex-grow: 1;
+  margin: 1%;
+  background-color: #ddd;
+}
