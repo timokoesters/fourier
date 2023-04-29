@@ -8,7 +8,7 @@ h1 {
   color: #eee;
   text-align: center;
   width: 100%;
-  padding: 0.5em;
+  padding: 0.5em 0;
 }
 .images {
   display: flex;
@@ -20,4 +20,5 @@ canvas {
   flex-grow: 1;
   margin: 1%;
   background-color: #ddd;
+  width: 100%;
 }
